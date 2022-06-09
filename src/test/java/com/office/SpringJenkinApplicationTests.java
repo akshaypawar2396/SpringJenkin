@@ -16,7 +16,7 @@ class SpringJenkinApplicationTests {
 	void contextLoads() {
 		logger.info("Test Case Executing....");
 		logger.info("Test Case Executing.... after Second Changes Done By Akshay");
-		logger.info("Test Case Executing.... after Third Changes Done By Akshay");
+		logger.info("Test Case Executing.... after Third Change Done By Akshay");
 		assertEquals(true, true);
 	}
 
