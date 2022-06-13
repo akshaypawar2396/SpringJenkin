@@ -14,7 +14,7 @@ public class SpringJenkinApplication {
 public static Logger logger=LoggerFactory.getLogger(SpringJenkinApplication.class);
 
 	@PostConstruct
-	public  init() {
+	public void init() {
 		logger.info("Application Started .....");
 		logger.info("Environment Changes");
 	}
